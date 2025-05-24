@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JBS Gym and Fitness - Bapatla</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://lib.youware.com/youware-lib.1747145198.js" id="yourware-lib"></script>
+</head>
+
+<body>
+    <div class="top-banner">
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-info">
+                    <span><i class="fas fa-clock"></i> Open 5:00 AM - 10:00 PM</span>
+                    <span><i class="fas fa-phone"></i> +91 98765 43210</span>
+                </div>
+                <div class="banner-offer">
+                    <span><i class="fas fa-tag"></i> Special Offer: 50% OFF on first month for new members! <a
+                            href="#membership" class="banner-btn">Join Now</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">JBS <span>GYM</span></div>
+            <ul class="nav-links">
+                <li><a href="#tour">Gym Tour</a></li>
+                <li><a href="#workout">Workout Plans</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#nutrition">Nutrition</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Push Beyond Limits at JBS Gym</h1>
+            <p>Your destination for fitness excellence in Bapatla</p>
+            <a href="#membership" class="btn">Join Now</a>
+        </div>
+    </section>
+
+    <section id="tour" class="container">
+        <div class="section-title">
+            <h2>JBS Gym Visual Tour</h2>
+        </div>
+
+        <div class="gym-tour">
+            <div class="tour-item">
+                <div class="tour-img">
+                    <img src="https://cdn.pixabay.com/photo/2017/07/15/21/06/reception-2507752_1280.jpg"
+                        alt="Gym Reception">
+                </div>
+                <div class="tour-content">
+                    <h3>Reception & Entrance</h3>
+                    <p>Our modern reception area welcomes you to JBS Gym with a professional staff ready to assist you
+                        with all your fitness needs.</p>
+                </div>
+            </div>
+
+            <div class="tour-item">
+                <div class="tour-img">
+                    <img src="https://cdn.pixabay.com/photo/2016/12/04/22/15/fitness-1882721_1280.jpg"
+                        alt="Workout Area">
+                </div>
+                <div class="tour-content">
+                    <h3>Weight Training Area</h3>
+                    <p>Our extensive weight training section features premium free weights, barbells, and multiple
+                        weight machines for all muscle groups.</p>
+                </div>
+            </div>
+
+            <div class="tour-item">
+                <div class="tour-img">
+                    <img src="https://cdn.pixabay.com/photo/2020/04/11/15/49/treadmill-5030966_1280.jpg"
+                        alt="Cardio Zone">
+                </div>
+                <div class="tour-content">
+                    <h3>Cardio Zone</h3>
+                    <p>State-of-the-art treadmills, ellipticals, and stationary bikes to help you achieve your cardio
+                        goals efficiently.</p>
+                </div>
+            </div>
+
+            <div class="tour-item">
+                <div class="tour-img">
+                    <img src="https://cdn.pixabay.com/photo/2017/06/21/23/01/locker-2428994_1280.jpg" alt="Locker Room">
+                </div>
+                <div class="tour-content">
+                    <h3>Lockers & Shower Area</h3>
+                    <p>Clean and spacious locker rooms with secure storage and refreshing shower facilities for your
+                        post-workout convenience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="workout" class="workout-plans">
+        <div class="container">
+            <div class="section-title">
+                <h2>Beginner Workout Plans</h2>
+            </div>
+
+            <div class="plan-tabs">
+                <button class="plan-tab active" onclick="showPlan('muscle')">Muscle Building</button>
+                <button class="plan-tab" onclick="showPlan('fat')">Fat Reduction</button>
+            </div>
+
+            <div id="muscle-plan" class="plan-content active">
+                <div class="exercise-list">
+                    <div class="exercise-item">
+                        <div class="exercise-img">
+                            <img src="https://cdn.pixabay.com/photo/2021/02/15/22/41/dumbbell-6019392_1280.jpg"
+                                alt="Bench Press">
+                        </div>
+                        <h3>Bench Press</h3>
+                        <p>Targets chest, shoulders, and triceps muscles</p>
+                        <div class="exercise-details">
+                            <p><span>Sets:</span> 3</p>
+                            <p><span>Reps:</span> 8-10</p>
+                            <p><span>Rest:</span> 90 seconds</p>
+                            <p><span>Target:</span> Chest, Shoulders, Triceps</p>
+                        </div>
+                    </div>
+
+                    <div class="exercise-item">
+                        <div class="exercise-img">
+                            <img src="https://cdn.pixabay.com/photo/2015/01/09/11/22/fitness-594143_1280.jpg"
+                                alt="Dumbbell Row">
+                        </div>
+                        <h3>Dumbbell Row</h3>
+                        <p>Essential for developing back muscles and strength</p>
+                        <div class="exercise-details">
+                            <p><span>Sets:</span> 3</p>
+                            <p><span>Reps:</span> 10-12</p>
+                            <p><span>Rest:</span> 60 seconds</p>
+                            <p><span>Target:</span> Back, Biceps</p>
+                        </div>
+                    </div>
+
+                    <div class="exercise-item">
+                        <div class="exercise-img">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/29/09/10/man-1868632_1280.jpg" alt="Squat">
+                        </div>
+                        <h3>Squats</h3>
+                        <p>The king of lower body exercises for mass and strength</p>
+                        <div class="exercise-details">
+                            <p><span>Sets:</span> 3</p>
+                            <p><span>Reps:</span> 10-12</p>
+                            <p><span>Rest:</span> 90 seconds</p>
+                            <p><span>Target:</span> Quadriceps, Hamstrings, Glutes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fat-plan" class="plan-content">
+                <div class="exercise-list">
+                    <div class="exercise-item">
+                        <div class="exercise-img">
+                            <img src="https://cdn.pixabay.com/photo/2020/04/11/15/49/treadmill-5030966_1280.jpg"
+                                alt="Treadmill Intervals">
+                        </div>
+                        <h3>Treadmill Intervals</h3>
+                        <p>Efficient fat burning through high intensity intervals</p>
+                        <div class="exercise-details">
+                            <p><span>Sets:</span> 5-8 intervals</p>
+                            <p><span>Work:</span> 30 seconds (high intensity)</p>
+                            <p><span>Rest:</span> 90 seconds (low intensity)</p>
+                            <p><span>Target:</span> Cardiovascular System, Full Body</p>
+                        </div>
+                    </div>
+
+                    <div class="exercise-item">
+                        <div class="exercise-img">
+                            <img src="https://cdn.pixabay.com/photo/2017/07/02/19/24/dumbbells-2465478_1280.jpg"
+                                alt="Circuit Training">
+                        </div>
+                        <h3>Circuit Training</h3>
+                        <p>Full body workout keeps heart rate elevated for maximum calorie burn</p>
+                        <div class="exercise-details">
+                            <p><span>Sets:</span> 3 circuits</p>
+                            <p><span>Exercises:</span> 6-8 different movements</p>
+                            <p><span>Rest:</span> Minimal between exercises</p>
+                            <p><span>Target:</span> Full Body, Metabolic Conditioning</p>
+                        </div>
+                    </div>
+
+                    <div class="exercise-item">
+                        <div class="exercise-img">
+                            <img src="https://cdn.pixabay.com/photo/2015/01/10/17/32/physiotherapy-595529_1280.jpg"
+                                alt="Medicine Ball">
+                        </div>
+                        <h3>Medicine Ball Exercises</h3>
+                        <p>Dynamic movements that engage the whole body while burning calories</p>
+                        <div class="exercise-details">
+                            <p><span>Sets:</span> 3</p>
+                            <p><span>Reps:</span> 15-20</p>
+                            <p><span>Rest:</span> 45 seconds</p>
+                            <p><span>Target:</span> Core, Shoulders, Explosive Power</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="schedule container">
+        <div class="section-title">
+            <h2>Weekly Workout Schedule</h2>
+        </div>
+
+        <div class="schedule-tabs">
+            <button class="schedule-tab active" onclick="showSchedule('gain')">Weight Gain Schedule</button>
+            <button class="schedule-tab" onclick="showSchedule('loss')">Weight Loss Schedule</button>
+        </div>
+
+        <div id="gain-schedule" class="schedule-content active">
+            <div class="weekly-schedule">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Workout Focus</th>
+                            <th>Exercises</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>Chest & Triceps</td>
+                            <td>Bench Press, Incline Press, Tricep Extensions</td>
+                            <td>60 min</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>Back & Biceps</td>
+                            <td>Deadlifts, Rows, Bicep Curls</td>
+                            <td>60 min</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>Rest Day</td>
+                            <td>Light Stretching & Recovery</td>
+                            <td>30 min</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>Shoulders & Abs</td>
+                            <td>Shoulder Press, Lateral Raises, Crunches</td>
+                            <td>60 min</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>Legs</td>
+                            <td>Squats, Leg Press, Calf Raises</td>
+                            <td>60 min</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>Full Body</td>
+                            <td>Compound Movements</td>
+                            <td>45 min</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>Complete Rest</td>
+                            <td>Recovery</td>
+                            <td>0 min</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="loss-schedule" class="schedule-content">
+            <div class="weekly-schedule">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Workout Focus</th>
+                            <th>Exercises</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>HIIT Cardio</td>
+                            <td>Treadmill Sprints, Jumping Jacks, Burpees</td>
+                            <td>45 min</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>Upper Body Circuit</td>
+                            <td>Push-ups, Pull-ups, Shoulder Press</td>
+                            <td>40 min</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>Steady State Cardio</td>
+                            <td>Jogging, Cycling, Elliptical</td>
+                            <td>60 min</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>Lower Body Circuit</td>
+                            <td>Squats, Lunges, Leg Curls</td>
+                            <td>40 min</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>Full Body HIIT</td>
+                            <td>Circuit Training</td>
+                            <td>45 min</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>Active Recovery</td>
+                            <td>Light Cardio, Stretching</td>
+                            <td>30 min</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>Complete Rest</td>
+                            <td>Recovery</td>
+                            <td>0 min</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="nutrition" class="nutrition">
+        <div class="container">
+            <div class="section-title">
+                <h2>Diet & Nutrition Plan</h2>
+            </div>
+
+            <div class="nutrition-tabs">
+                <button class="nutrition-tab active" onclick="showNutrition('gain')">Weight Gain</button>
+                <button class="nutrition-tab" onclick="showNutrition('loss')">Weight Loss</button>
+            </div>
+
+            <div id="gain-nutrition" class="nutrition-content active">
+                <div class="meal-plan">
+                    <div class="meal">
+                        <h4>Breakfast (7:00 AM)</h4>
+                        <ul>
+                            <li>4 Egg Omelette with Vegetables</li>
+                            <li>3 Slices Whole Wheat Toast</li>
+                            <li>1 Cup Milk</li>
+                            <li>1 Banana</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal">
+                        <h4>Mid-Morning Snack (10:00 AM)</h4>
+                        <ul>
+                            <li>1 Cup Greek Yogurt</li>
+                            <li>1/4 Cup Mixed Nuts</li>
+                            <li>1 Apple</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal">
+                        <h4>Lunch (1:00 PM)</h4>
+                        <ul>
+                            <li>200g Chicken Breast</li>
+                            <li>2 Cups Rice</li>
+                            <li>Mixed Vegetables</li>
+                            <li>1 Tablespoon Olive Oil</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal">
+                        <h4>Pre-Workout (4:00 PM)</h4>
+                        <ul>
+                            <li>1 Banana</li>
+                            <li>Protein Shake (30g Whey Protein)</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal">
+                        <h4>Post-Workout (6:30 PM)</h4>
+                        <ul>
+                            <li>Protein Shake (30g Whey Protein)</li>
+                            <li>1 Cup Orange Juice</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal">
+                        <h4>Dinner (8:00 PM)</h4>
+                        <ul>
+                            <li>200g Fish or Lean Meat</li>
+                            <li>1 Large Sweet Potato</li>
+                            <li>Green Vegetables</li>
+                            <li>1 Tablespoon Coconut Oil</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal">
+                        <h4>Before Bed (10:30 PM)</h4>
+                        <ul>
+                            <li>1 Cup Cottage Cheese</li>
+                            <li>1 Tablespoon Honey</li>
+                            <li>1 Tablespoon Peanut Butter</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal-note">
+                        <h4>Hydration</h4>
+                        <p>Drink at least 4-5 liters of water throughout the day. Increase water intake during workouts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="loss-nutrition" class="nutrition-content">
+                <div class="meal-plan">
+                    <div class="meal">
+                        <h4>Breakfast (7:00 AM)</h4>
+                        <ul>
+                            <li>2 Egg Whites + 1 Whole Egg</li>
+                            <li>1 Slice Whole Wheat Toast</li>
+                            <li>1/2 Cup Oatmeal</li>
+                            <li>1/2 Cup Berries</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal">
+                        <h4>Mid-Morning Snack (10:00 AM)</h4>
+                        <ul>
+                            <li>1 Apple</li>
+                            <li>10 Almonds</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal">
+                        <h4>Lunch (1:00 PM)</h4>
+                        <ul>
+                            <li>150g Grilled Chicken</li>
+                            <li>Large Green Salad with Vegetables</li>
+                            <li>1 Teaspoon Olive Oil Dressing</li>
+                            <li>1/2 Cup Brown Rice</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal">
+                        <h4>Pre-Workout (4:00 PM)</h4>
+                        <ul>
+                            <li>1/2 Banana</li>
+                            <li>Black Coffee</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal">
+                        <h4>Post-Workout (6:30 PM)</h4>
+                        <ul>
+                            <li>Protein Shake (25g Whey Protein) with Water</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal">
+                        <h4>Dinner (8:00 PM)</h4>
+                        <ul>
+                            <li>150g Fish or Lean Meat</li>
+                            <li>Green Vegetables (Unlimited)</li>
+                            <li>1/2 Cup Sweet Potato or Quinoa</li>
+                        </ul>
+                    </div>
+
+                    <div class="meal-note">
+                        <h4>Hydration</h4>
+                        <p>Drink at least 4-5 liters of water throughout the day. Drink a glass of water before each
+                            meal to help with portion control.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="essentials" class="essentials container">
+        <div class="section-title">
+            <h2>Gym Essentials Checklist</h2>
+        </div>
+
+        <div class="essentials-list">
+            <div class="essential-item">
+                <div class="essential-icon">
+                    <i class="fas fa-shoe-prints"></i>
+                </div>
+                <h3>Workout Shoes</h3>
+                <p>Proper gym shoes provide necessary support for different exercises.</p>
+            </div>
+
+            <div class="essential-item">
+                <div class="essential-icon">
+                    <i class="fas fa-tshirt"></i>
+                </div>
+                <h3>Extra Clothes</h3>
+                <p>Bring comfortable workout clothes and a change for after.</p>
+            </div>
+
+            <div class="essential-item">
+                <div class="essential-icon">
+                    <i class="fas fa-hand-rock"></i>
+                </div>
+                <h3>Gym Gloves</h3>
+                <p>Protects hands from calluses during weight training.</p>
+            </div>
+
+            <div class="essential-item">
+                <div class="essential-icon">
+                    <i class="fas fa-prescription-bottle"></i>
+                </div>
+                <h3>Water Bottle</h3>
+                <p>Stay hydrated during your workout with a reusable bottle.</p>
+            </div>
+
+            <div class="essential-item">
+                <div class="essential-icon">
+                    <i class="fas fa-headphones"></i>
+                </div>
+                <h3>Headphones</h3>
+                <p>Enjoy your favorite music while working out.</p>
+            </div>
+
+            <div class="essential-item">
+                <div class="essential-icon">
+                    <i class="fas fa-shower"></i>
+                </div>
+                <h3>Towel</h3>
+                <p>One for wiping equipment and another for showering.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="trainer" class="trainer container">
+        <div class="section-title">
+            <h2>Personal Trainer</h2>
+        </div>
+
+        <div class="trainer-card">
+            <div class="trainer-img">
+                <img src="https://cdn.pixabay.com/photo/2020/03/23/07/59/office-4959785_1280.jpg" alt="Trainer">
+            </div>
+            <div class="trainer-details">
+                <h3>Rajesh Kumar</h3>
+                <p><strong>Experience:</strong> 8+ Years</p>
+                <p><strong>Certifications:</strong> ACE Certified Personal Trainer, Nutrition Specialist</p>
+                <p><strong>Specialization:</strong> Weight Gain, Muscle Building, Fat Loss</p>
+                <p><strong>Contact:</strong> +91 98765 43210</p>
+                <p><strong>Email:</strong> trainer@jbsgym.com</p>
+                <div class="trainer-contact">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipment" class="equipment container">
+        <div class="section-title">
+            <h2>JBS Gym Equipment</h2>
+        </div>
+
+        <div class="equipment-list">
+            <div class="equipment-item">
+                <div class="equipment-icon">
+                    <i class="fas fa-running"></i>
+                </div>
+                <h3>Treadmills</h3>
+                <p>Modern treadmills with incline features for cardio and fat loss training.</p>
+            </div>
+
+            <div class="equipment-item">
+                <div class="equipment-icon">
+                    <i class="fas fa-dumbbell"></i>
+                </div>
+                <h3>Free Weights</h3>
+                <p>Complete range from 1kg to 50kg for all strength training needs.</p>
+            </div>
+
+            <div class="equipment-item">
+                <div class="equipment-icon">
+                    <i class="fas fa-walking"></i>
+                </div>
+                <h3>Smith Machine</h3>
+                <p>Perfect for beginners learning proper form for squats and bench press.</p>
+            </div>
+
+            <div class="equipment-item">
+                <div class="equipment-icon">
+                    <i class="fas fa-weight"></i>
+                </div>
+                <h3>Bench Press</h3>
+                <p>Multiple stations for chest development and upper body strength.</p>
+            </div>
+
+            <div class="equipment-item">
+                <div class="equipment-icon">
+                    <i class="fas fa-biking"></i>
+                </div>
+                <h3>Stationary Bikes</h3>
+                <p>Low-impact cardio equipment ideal for warm-up and fat burning.</p>
+            </div>
+
+            <div class="equipment-item">
+                <div class="equipment-icon">
+                    <i class="fas fa-hand-rock"></i>
+                </div>
+                <h3>Cable Crossover</h3>
+                <p>Versatile machine for a wide range of isolation exercises.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="facilities" class="facilities container">
+        <div class="section-title">
+            <h2>Facilities at JBS Gym</h2>
+        </div>
+
+        <div class="facilities-list">
+            <div class="facility-item">
+                <div class="facility-icon">
+                    <i class="fas fa-parking"></i>
+                </div>
+                <h3>Parking</h3>
+                <p>Ample parking space available for members.</p>
+            </div>
+
+            <div class="facility-item">
+                <div class="facility-icon">
+                    <i class="fas fa-wind"></i>
+                </div>
+                <h3>Air Conditioning</h3>
+                <p>Fully air-conditioned gym for comfortable workouts year-round.</p>
+            </div>
+
+            <div class="facility-item">
+                <div class="facility-icon">
+                    <i class="fas fa-shower"></i>
+                </div>
+                <h3>Shower Rooms</h3>
+                <p>Clean shower facilities with hot water availability.</p>
+            </div>
+
+            <div class="facility-item">
+                <div class="facility-icon">
+                    <i class="fas fa-broom"></i>
+                </div>
+                <h3>Cleanliness</h3>
+                <p>We maintain high standards of hygiene throughout our facility.</p>
+            </div>
+
+            <div class="facility-item">
+                <div class="facility-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <h3>Working Hours</h3>
+                <p>Open 5:00 AM - 10:00 PM daily.</p>
+            </div>
+
+            <div class="facility-item">
+                <div class="facility-icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <h3>Background Music</h3>
+                <p>Energetic music to keep you motivated during workouts.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact container">
+        <div class="section-title">
+            <h2>Contact & Location</h2>
+        </div>
+
+        <div class="contact-info">
+            <h3>JBS Gym and Fitness</h3>
+            <div class="contact-detail">
+                <span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+                <span>Bapatla, Andhra Pradesh – 522101</span>
+            </div>
+            <div class="contact-detail">
+                <span class="contact-icon"><i class="fas fa-phone"></i></span>
+                <span>+91 98765 43210</span>
+            </div>
+            <div class="contact-detail">
+                <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                <span>info@jbsgym.com</span>
+            </div>
+            <div class="contact-detail">
+                <span class="contact-icon"><i class="fas fa-globe"></i></span>
+                <span>www.jbsgym.com</span>
+            </div>
+            <div class="contact-detail">
+                <span class="contact-icon"><i class="fas fa-clock"></i></span>
+                <span>Open 5:00 AM - 10:00 PM (All days)</span>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30658.780673445198!2d80.43151147013835!3d15.903717089659408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a514b3f129b0f%3A0x9d08b86eb1611b89!2sBapatla%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1689252123456!5m2!1sen!2sin"
+                width="100%" height="300" style="border:0; border-radius: 10px; margin-top: 1rem;" allowfullscreen=""
+                loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section id="membership" class="membership container">
+        <div class="section-title">
+            <h2>Membership Packages</h2>
+        </div>
+
+        <div class="membership-plans">
+            <div class="plan-card">
+                <div class="plan-header">
+                    <h3>Standard</h3>
+                    <div class="plan-price">₹1,200<span>/month</span></div>
+                </div>
+                <div class="plan-features">
+                    <ul>
+                        <li>Full Gym Access</li>
+                        <li>Standard Workout Hours</li>
+                        <li>Locker Facilities</li>
+                        <li>Basic Fitness Assessment</li>
+                        <li>No Personal Training</li>
+                    </ul>
+                    <a href="#" class="btn">Join Now</a>
+                </div>
+            </div>
+
+            <div class="plan-card">
+                <div class="plan-header">
+                    <h3>Premium</h3>
+                    <div class="plan-price">₹2,500<span>/month</span></div>
+                </div>
+                <div class="plan-features">
+                    <ul>
+                        <li>Full Gym Access</li>
+                        <li>Extended Hours</li>
+                        <li>Locker Facilities</li>
+                        <li>Detailed Fitness Assessment</li>
+                        <li>4 Personal Training Sessions</li>
+                        <li>Basic Diet Plan</li>
+                    </ul>
+                    <a href="#" class="btn">Join Now</a>
+                </div>
+            </div>
+
+            <div class="plan-card">
+                <div class="plan-header">
+                    <h3>Platinum</h3>
+                    <div class="plan-price">₹4,000<span>/month</span></div>
+                </div>
+                <div class="plan-features">
+                    <ul>
+                        <li>24/7 Gym Access</li>
+                        <li>Premium Locker</li>
+                        <li>Complete Fitness Assessment</li>
+                        <li>8 Personal Training Sessions</li>
+                        <li>Customized Diet Plan</li>
+                        <li>Weekly Progress Reports</li>
+                        <li>Priority Booking</li>
+                    </ul>
+                    <a href="#" class="btn">Join Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">JBS <span>GYM</span></div>
+                    <p>Push Beyond Limits at JBS Gym</p>
+                    <p>Follow us for fitness tips, updates & transformations!</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#tour">Gym Tour</a></li>
+                        <li><a href="#workout">Workout Plans</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#nutrition">Nutrition</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#trainer">Personal Training</a></li>
+                        <li><a href="#nutrition">Diet Planning</a></li>
+                        <li><a href="#membership">Membership</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Bapatla, AP - 522101</li>
+                        <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+                        <li><i class="fas fa-envelope"></i> info@jbsgym.com</li>
+                        <li><i class="fas fa-clock"></i> 5:00 AM - 10:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2023 JBS Gym and Fitness. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
