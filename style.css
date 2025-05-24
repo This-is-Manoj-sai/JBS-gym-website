@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -789,4 +788,167 @@ footer {
     min-width: 700px;
     width: 100%;
     border-collapse: collapse;
+}
+
+@media (max-width: 768px) {
+    .top-banner {
+        padding: 0.2rem 0 !important;
+        font-size: 0.75rem !important;
+    }
+
+    .banner-content {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 0.3rem;
+    }
+
+    .banner-info,
+    .banner-offer {
+        width: 100%;
+        line-height: 1.2;
+    }
+
+    .banner-info span,
+    .banner-offer span {
+        display: block;
+        margin-bottom: 0.2rem;
+    }
+
+    .banner-btn {
+        display: inline-block;
+        margin-top: 0.2rem;
+        font-size: 0.7rem;
+        padding: 0.2rem 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-banner {
+        padding: 0.1rem 0 !important;
+        font-size: 0.7rem !important;
+    }
+
+    .banner-content {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 0.2rem;
+    }
+
+    .banner-info {
+        display: none !important;
+    }
+
+    .banner-offer {
+        width: 100%;
+        line-height: 1.2;
+    }
+
+    .banner-offer span {
+        display: block;
+        margin-bottom: 0.1rem;
+    }
+
+    .banner-btn {
+        font-size: 0.65rem;
+        padding: 0.2rem 0.4rem;
+        margin-top: 0.2rem;
+    }
+}
+/* marquue-behaviour */
+@media (max-width: 768px) {
+    .top-banner {
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 0.75rem;
+        padding: 0.3rem 0;
+    }
+
+    .banner-content {
+        display: block;
+        width: 100%;
+    }
+
+    .banner-content::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .banner-marquee {
+        display: inline-block;
+        animation: marquee 12s linear infinite;
+        white-space: nowrap;
+    }
+
+    .banner-info {
+        display: none !important;
+    }
+
+    .banner-offer {
+        display: inline-block;
+    }
+
+    .banner-btn {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.5rem;
+        margin-left: 0.5rem;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+/* scroll-behaviour for large displays */
+@media (max-width: 2768px) {
+    .top-banner {
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 1.2rem;
+        padding: 0.3rem 0;
+    }
+
+    .banner-content {
+        display: block;
+        width: 100%;
+    }
+
+    .banner-content::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .banner-marquee {
+        display: inline-block;
+        animation: marquee 12s linear infinite;
+        white-space: nowrap;
+    }
+
+    .banner-info {
+        display: none !important;
+    }
+
+    .banner-offer {
+        display: inline-block;
+    }
+
+    .banner-btn {
+        font-size: 0.9rem;
+        padding: 0.2rem 0.5rem;
+        margin-left: 0.5rem;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
