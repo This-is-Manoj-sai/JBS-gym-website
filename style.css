@@ -723,3 +723,59 @@ footer {
 .membership-plans {
     justify-content: center;
 }
+/* existing styles above remain unchanged */
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 350px) {
+    body {
+        font-size: 14px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn, .plan-tab, .schedule-tab, .nutrition-tab {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .section-title h2 {
+        font-size: 1.5rem;
+    }
+
+    .weekly-schedule {
+        overflow-x: auto;
+    }
+
+    .weekly-schedule table {
+        min-width: 600px;
+    }
+}
