@@ -779,3 +779,14 @@ footer {
         min-width: 600px;
     }
 }
+/* Horizontal scroll for Weekly Workout Schedule */
+.weekly-schedule {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.weekly-schedule table {
+    min-width: 700px;
+    width: 100%;
+    border-collapse: collapse;
+}
